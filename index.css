@@ -4,7 +4,7 @@
     padding:0;
     /* border: 0; */
     box-sizing:border-box;
-    font-family: "Urbanist", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     /* background-color: #00853E; */
 }
 :root{
@@ -65,10 +65,18 @@ li{
     border-radius: 2rem;
 }
 /*-------- part_1_section--- */
-.part_1_section_p
+.part_1_section_ p
 {
   font-size: 150%;
   font-family:'Times New Roman', Times, serif;
+}
+.part_2_section_heading{
+    color: black;
+    font-weight:bolder;
+}
+.part_2_section_para
+{
+    color: brown;
 }
 .part_1_section .container
 {
@@ -143,7 +151,7 @@ color: var(--bs-dark-primary);
 .part_3_section
 {
  padding-top: 40px;
- background-image: linear-gradient(rgba(105, 253, 0, 0.35),rgba(22, 22, 22, 0.9)) , url("images/Add\ a\ little\ bit\ of\ body\ text.png") ;
+ background-image: linear-gradient(rgba(22, 22, 22, 0.347),rgba(22, 22, 22, 0.9)) , url("images/Add\ a\ little\ bit\ of\ body\ text.png") ;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -159,6 +167,15 @@ overflow: hidden;
     width: 40rem;
     border-radius: 2rem;
     margin-bottom: 50px;
+}
+.part_4_section_heading
+{
+    color: rgb(13, 81, 13);
+    
+}
+.part_4_section_description
+{
+    color: rgba(0, 128, 0, 0.662);
 }
 
 /* ------------ (Section-4) bussiness-section --------------- */
